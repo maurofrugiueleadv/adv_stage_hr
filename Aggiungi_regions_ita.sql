@@ -1,0 +1,24 @@
+--------------------------------------------------------
+--  File creato - lunedì-marzo-06-2023   
+--------------------------------------------------------
+DROP TABLE HRD.CONTINENTI;
+--------------------------------------------------------
+--  DDL for Table CONTINENTI
+--------------------------------------------------------
+
+  CREATE TABLE HRD.CONTINENTI 
+   (	ID_CONTINENTE NUMBER, 
+	NOME_CONTINENTE VARCHAR2(25 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE USERS ;
+REM INSERTING into HRD.CONTINENTI
+SET DEFINE OFF;
+Insert into HRD.CONTINENTI (ID_CONTINENTE,NOME_CONTINENTE) values ('1','Europa');
+Insert into HRD.CONTINENTI (ID_CONTINENTE,NOME_CONTINENTE) values ('2','America');
+Insert into HRD.CONTINENTI (ID_CONTINENTE,NOME_CONTINENTE) values ('3','Asia');
+Insert into HRD.CONTINENTI (ID_CONTINENTE,NOME_CONTINENTE) values ('4','Medio Oriente e Africa');
