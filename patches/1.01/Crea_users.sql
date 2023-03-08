@@ -16,6 +16,7 @@ GRANT QUERY REWRITE                     TO hrd;
 GRANT CREATE MATERIALIZED VIEW          TO hrd;
 GRANT CREATE VIEW                       TO hrd;
 ALTER USER hrd quota unlimited on SYSAUX;
+ALTER USER hrd quota unlimited on USERS;
 
 
 DROP USER hrp CASCADE;
@@ -36,6 +37,6 @@ GRANT QUERY REWRITE                     TO hrp;
 GRANT CREATE MATERIALIZED VIEW          TO hrp;
 GRANT CREATE VIEW                       TO hrp;
 ALTER USER hrp quota unlimited on SYSAUX;
-
+ALTER USER hrp quota unlimited on USERS;
 
 EXIT;
