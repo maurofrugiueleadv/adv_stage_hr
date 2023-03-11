@@ -15,7 +15,10 @@ Esercizio di versionamento degli oggetti del DB e simulazione di push in Produzi
 
 * Nella pagina che viene presentata andare su setup in desktop
 
-* e caricare il file export (su github desktop fai 'show in explorer' e carica nella giusta directory)
+* e caricare il file export (su github desktop fai 'show in explorer' e carica nella giusta directory) utilizzando il comando
+```bash
+exp hrd/hrd file=hrd.dmp statistics=none
+```
 
 * Fai commit
 
@@ -29,8 +32,7 @@ Esercizio di versionamento degli oggetti del DB e simulazione di push in Produzi
 
 
 
-
-exp hrd/hrd file=hrd.dmp statistics=none
-imp hrd/hrd file=hrd.dmp
-
-------------------------------------------------------------
+<!--
+// exp hrd/hrd file=hrd.dmp statistics=none
+// imp hrd/hrd file=hrd.dmp 
+-->
