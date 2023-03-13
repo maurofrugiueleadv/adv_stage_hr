@@ -7,9 +7,9 @@ Questo esercizio utilizzerà lo schema HR per simulare una modifica e creare un 
 Esercizio di versionamento degli oggetti del DB e simulazione di push in Produzione
 
 1 - Registrare o loggare sul proprio account su https://github.com/ 
-2 - Scaricare GitHub Desktop https://desktop.github.com/ e durante l'installazione porre attenzione a quale sarà la cartella 	che Git 
+2 - Scaricare GitHub Desktop https://desktop.github.com/ e durante l'installazione porre attenzione a quale sarà la cartella che Git 
 	usera' per allineare la repository
-3 - Esportare il db HR (inserire steps)
+3 - Esportare il db HR via Sqlplus con il comando: exp hr/hr file=hrd.dmp statistics=none
 4 - creare nuovo script sql (dettagli)
 5 - pushare le modifiche
 
